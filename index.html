@@ -1,0 +1,59 @@
+<!--
+  This is a simple demonstration of calculator made using few lines of HTML and JS.
+  You can download the source code and edit it as per your requirement.
+  I am focusing more on functionality than on the User Interface.
+  Only few of CSS is being used and those are for alignment and colors/bg.
+  Please do not remove this comment from the code.
+
+  Demonstration: JS Calculator
+
+  Written By: Maneesh Pandey
+  Nickname: NamelessX
+  Website: maneesh.dx.am
+  Instagram: https://www.instagram.com/_maneesh_pandey
+-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <center><section class="calculator">
+      <div class="branding" id="brand">
+        JS Calculator By Maneesh
+      </div>
+      <div class="screen">
+        <input id="screen" disabled type="text" name="screen">
+      </div>
+      <div class="buttons">
+        <div class="row">
+          <button onclick="pass('7')" type="button" name="button">7</button>
+          <button onclick="pass('8')" type="button" name="button">8</button>
+          <button onclick="pass('9')" type="button" name="button">9</button>
+          <button onclick="pass(' + ')" type="button" name="button">+</button>
+        </div>
+        <div class="row">
+          <button onclick="pass('4')" type="button" name="button">4</button>
+          <button onclick="pass('5')" type="button" name="button">5</button>
+          <button onclick="pass('6')" type="button" name="button">6</button>
+          <button onclick="pass(' - ')" type="button" name="button">-</button>
+        </div>
+        <div class="row">
+          <button onclick="pass('1')" type="button" name="button">1</button>
+          <button onclick="pass('2')" type="button" name="button">2</button>
+          <button onclick="pass('3')" type="button" name="button">3</button>
+          <button onclick="pass(' * ')" type="button" name="button">X</button>
+        </div>
+        <div class="row">
+          <button onclick="pass(' / ')" type="button" name="button">/</button>
+          <button type="button" onclick="cl()" name="button">C</button>
+          <button type="button" onclick="back()" name="button"> &lt; </button>
+          <button type="button" onclick="ans()" name="button">=</button>
+        </div>
+      </div>
+    </section></center>
+  </body>
+  <script src="./index.js" charset="utf-8"></script>
+</html>
