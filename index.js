@@ -1,3 +1,18 @@
+/*
+  This is a simple demonstration of calculator made using few lines of HTML and JS.
+  You can download the source code and edit it as per your requirement.
+  I am focusing more on functionality than on the User Interface.
+  Only few of CSS is being used and those are for alignment and colors/bg.
+  Please do not remove this comment from the code.
+
+  Demonstration: JS Calculator
+
+  Written By: Maneesh Pandey
+  Nickname: NamelessX
+  Website: maneesh.dx.am
+  Instagram: https://www.instagram.com/_maneesh_pandey
+*/
+
 // Function to read the passed value and display on screen
 var sc = document.getElementById('screen');
 
